@@ -1,0 +1,25 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    margin-top: 50px;
+    color: whitesmoke;
+    background-color: black;
+}
+
+button {
+    height: 30px;
+    width: 25%;
+    margin: 30px;
+    border-radius: 5px;
+    color: whitesmoke;
+    background: linear-gradient(90deg, #b411d5, #6f23d3);
+    border-style: none;
+}
+
+button:hover {
+    height: 31px;
+    width: 26%;
+    font-size: 14px;
+    background: linear-gradient(180deg, #b411d5, #6f23d3);
+    cursor: pointer;
+}
