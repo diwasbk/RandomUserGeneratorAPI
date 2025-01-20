@@ -23,3 +23,41 @@ button:hover {
     background: linear-gradient(180deg, #b411d5, #6f23d3);
     cursor: pointer;
 }
+
+.user-card {
+    color: whitesmoke;
+    background: linear-gradient(180deg, #b411d5, #6f23d3);
+    border: 2px solid #ccc;
+    padding: 20px;
+    margin: 20px auto;
+    width: 300px;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    display: flex;
+    flex-direction: column;
+}
+
+img {
+    border-radius: 50%;
+    height: 120px;
+    width: 120px;
+    margin-bottom: 10px;
+    background-size: cover;
+    border: 3px solid whitesmoke;
+    margin-top: 18px;
+}
+
+/* Media query for smaller devices */
+@media (max-width: 768px) {
+    button {
+        width: 70%;
+        margin: 10px;
+    }
+    button:hover {
+        width: 70%;
+        margin: 10px;
+        font-size: 14px;
+        background: linear-gradient(180deg, #b411d5, #6f23d3);
+        cursor: pointer;
+    }
+}
